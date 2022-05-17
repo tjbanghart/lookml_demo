@@ -1,6 +1,5 @@
 view: commits {
-  sql_table_name: `bigquery-public-data.github_repos.commits`
-    ;;
+  sql_table_name: `bigquery-public-data.github_repos.commits` ;;
 
   dimension: author__date__nanos {
     type: number
@@ -45,6 +44,7 @@ view: commits {
   }
 
   dimension: commit {
+    primary_key: yes
     type: string
     sql: ${TABLE}.commit ;;
   }
