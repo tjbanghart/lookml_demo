@@ -15,6 +15,7 @@ view: contents {
   }
 
   dimension: content {
+    description: "content details"
     type: string
     sql: ${TABLE}.content ;;
   }
