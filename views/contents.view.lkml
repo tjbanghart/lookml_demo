@@ -21,7 +21,6 @@ view: contents {
   }
 
   dimension: copies {
-    description: "Copy"
     type: number
     sql: ${TABLE}.copies ;;
   }
