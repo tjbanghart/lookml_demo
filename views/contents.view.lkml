@@ -10,6 +10,7 @@ view: contents {
   }
 
   dimension: binary {
+    description: "Contents"
     type: yesno
     sql: ${TABLE}.binary ;;
   }
