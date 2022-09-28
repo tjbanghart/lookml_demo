@@ -16,6 +16,7 @@ view: contents {
     {% endif %} ;;
   }
   dimension: content_id_image {
+    description: "content id details"
     sql: ${id};;
     html: <img src="https://cdn.freebiesupply.com/logos/large/2x/looker-logo-png-transparent{{value}}.png"/>;;
   }
