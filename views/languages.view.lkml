@@ -8,6 +8,7 @@ view: languages {
   }
 
   dimension: repo_name {
+    description: "repo details"
     type: string
     sql: ${TABLE}.repo_name ;;
   }

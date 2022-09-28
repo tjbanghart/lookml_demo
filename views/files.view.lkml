@@ -26,6 +26,10 @@ view: files {
 
   dimension: repo_name {
     type: string
+    link: {
+      label: "Rep details"
+      url: "https://gcps228.cloud.looker.com/dashboards/11?repo_name={{ _filters['files.repo_name'] | url_encode }}"
+    }
     sql: ${TABLE}.repo_name ;;
   }
 
