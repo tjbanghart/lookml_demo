@@ -10,6 +10,7 @@ view: files {
   }
 
   dimension: mode {
+    description: "mode details"
     type: number
     sql: ${TABLE}.mode ;;
   }
